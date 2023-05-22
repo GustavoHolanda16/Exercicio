@@ -1,0 +1,2 @@
+nomes=[input()]
+print(nomes)

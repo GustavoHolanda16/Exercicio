@@ -1,5 +1,5 @@
-
-print('Descobrir se a letra é uma vogal ou consoantes.')
+#Masculino ou Feminino
+print('Digite se a pessoa é Homem ou Mulher.')
 x=input('Digite uma letra: ')
 a,e,i,o,u='a','e','i','o','u'
 if x==a:
