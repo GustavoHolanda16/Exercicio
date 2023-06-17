@@ -1,6 +1,7 @@
 arquivo = open ('sabado.txt','w')
-for i in range (5):
-    arquivo.write(input('Digite nome: ')+'\n')
+for i in range (1,101):
+    i=str(i)
+    arquivo.write(i+'\n')
     
 arquivo.close
 print('ok!')
