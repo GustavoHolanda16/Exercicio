@@ -3,4 +3,5 @@ arquivo = load_workbook('planilha.xlsx')
 for i in arquivo:
     print(i)
 for i in range(10):
-    planilha ['A']=input()
+    x=input()
+    planilha['A1']=x
