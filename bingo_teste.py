@@ -48,8 +48,7 @@ arquivo = open("bingo_User.txt", "w")
 arquivo.write( retornaMatriz2(3,3) )
 arquivo.close()
 print('Bingo User pronto!')
-print(bc)
-print(bu)
+
 
 for i in range (len(bc)):
     if bc[i]==bu[i]:
